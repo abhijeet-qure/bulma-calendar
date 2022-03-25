@@ -46395,15 +46395,15 @@ var bulmaCalendar = function (_EventEmitter) {
             this.format = this._type === 'date' ? this.options.dateFormat : this._type === 'time' ? this.options.timeFormat : this.options.dateFormat + ' ' + this.options.timeFormat; // Set export format based on component type
 
             // Force dialog display mode on mobile devices
-            if (this.options.displayMode === 'default' && window.matchMedia('screen and (max-width: 768px)').matches) {
-                this.options.displayMode = 'dialog';
-            }
-            if (window.matchMedia('screen and (max-width: 768px)').matches) {
-                if (this.options.displayMode === 'default') {
-                    this.options.displayMode = 'dialog';
-                }
-                this.options.displayDual = false;
-            }
+            // if (this.options.displayMode === 'default' && window.matchMedia('screen and (max-width: 768px)').matches) {
+            //     this.options.displayMode = 'dialog';
+            // }
+            // if (window.matchMedia('screen and (max-width: 768px)').matches) {
+            //     if (this.options.displayMode === 'default') {
+            //         this.options.displayMode = 'dialog';
+            //     }
+            //     this.options.displayDual = false;
+            // }
 
             this._build();
             this._bindEvents();
