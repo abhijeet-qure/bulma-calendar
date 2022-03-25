@@ -30,6 +30,10 @@
   type: String
   description: 'Display mode: default|dialog|inline'
   value: 'default'
+- name: 'forceDialogDisplayModeOnMobile'
+  type: Boolean
+  description: 'Forcing dialog mode on mobile view: true/false'
+  value: 'true'
 - name: 'position'
   type: String
   description: ''

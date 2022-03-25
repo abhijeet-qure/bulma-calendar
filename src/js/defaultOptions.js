@@ -7,6 +7,7 @@ const defaultOptions = {
     dateFormat:          'MM/dd/yyyy',
     timeFormat:          'HH:mm',
     displayMode:         'default',
+    forceDialogDisplayModeOnMobile: true,
     editTimeManually:    false,
     position:            'auto',
     showHeader:          true,

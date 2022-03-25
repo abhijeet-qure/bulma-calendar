@@ -85,6 +85,12 @@ declare namespace bulmaCalendar {
     displayMode?: 'default' | 'dialog' | 'inline';
 
     /**
+     * forcing the dialog displayMode on the mobile view
+     * @default true
+     */
+    forceDialogDisplayModeOnMobile?: boolean;
+
+    /**
      * @default 'auto'
      */
     position?: string;
