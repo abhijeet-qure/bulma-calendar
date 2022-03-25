@@ -10,7 +10,8 @@
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release",
     "build": "gulp build",
-    "clean": "gulp clean"
+    "clean": "gulp clean",
+    "release": "np"
   },
   "repository": {
     "type": "git",
@@ -36,7 +37,8 @@
   },
   "homepage": "https://doc.mh-s.de/bulma-calendar",
   "dependencies": {
-    "date-fns": "^2.21.3"
+    "date-fns": "^2.21.3",
+    "np": "^7.6.1"
   },
   "peerDependencies": {
     "bulma": "^0.9.3"
