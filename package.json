@@ -10,6 +10,7 @@
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release",
     "build": "gulp build",
+    "test": "echo test",
     "clean": "gulp clean",
     "release": "np"
   },
